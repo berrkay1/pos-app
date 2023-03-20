@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Categories from './Categories';
+import Headers from './Headers';
 
 const Home = () => {
+
+  
+
+  
   return (
-    <div>Home</div>
+    <div className='bg-[#EAEAEA] h-full '>
+     <Headers />
+     <Categories/>
+    </div>
   )
 }
 

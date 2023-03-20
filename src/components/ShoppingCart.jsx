@@ -9,8 +9,8 @@ const ShoppingCart = () => {
 
       <div className='h-full flex flex-col'>
         <div className='basis-4/6 bg-pos-black2 mt-3 overflow-x-auto '>
-            <ShoppingCartDetail/>
-            <ShoppingCartDetail/>
+          <ShoppingCartDetail />
+          <ShoppingCartDetail />
         </div>
 
         <div className='basis-2/6 bg-pos-black2 mt-3 px-5 py-5'>
@@ -30,7 +30,7 @@ const ShoppingCart = () => {
         </div>
 
         <div className='basis-1/6 bg-pos-black2 mt-3 flex flex-col justify-center px-2'>
-          <button type='button' className='bg-white text-black hover:bg-pos-black4 hover:text-white py-[4px] px-[15px] h-[32px] rounded-[6px] duration-500 w-full mb-3 text-[14px]' >Sipariş Oluştur</button>
+          <button type='button' className='bg-white text-black hover:bg-pos-black4 hover:text-white py-[4px] px-[15px] h-[32px] rounded-[6px] duration-300 w-full mb-3 text-[14px]' >Sipariş Oluştur</button>
           <Button className='w-full' type='primary' danger>Sepeti Temizle</Button>
         </div>
       </div>

@@ -10,11 +10,12 @@ const ShoppingCartDetail = () => {
             <div className='flex flex-col ml-5'>
                 <span className='text-md opacity-90 font-bold'>Elma</span>
                 <span className='text-sm opacity-60'>10 TL</span>
-                <div className='flex mt-auto'>
-                    <div className='px-1.5 py-1 bg-pos-blackBtns flex items-center justify-center cursor-pointer rounded-[4px] hover:bg-opacity-50 mr-3 border-neutral-400 border-solid border-2'>
+                <div className='flex mt-auto justify-center items-center'>
+                    <div className='px-1.5 py-1 bg-pos-blackBtns flex items-center justify-center cursor-pointer rounded-[4px] hover:bg-opacity-50 mr-2 border-neutral-400 border-solid border-2 duration-300'>
                         <AiOutlinePlus />
                     </div>
-                    <div className='px-1.5 py-1 bg-pos-blackBtns flex items-center justify-center cursor-pointer rounded-[4px] hover:bg-opacity-50 border-neutral-400 border-solid border-2'>
+                    <div className='mr-2 font-bold'>3</div>
+                    <div className='px-1.5 py-1 bg-pos-blackBtns flex items-center justify-center cursor-pointer rounded-[4px] hover:bg-opacity-50 border-neutral-400 border-solid border-2 duration-300'>
                         <AiOutlineMinus />
                     </div>
                 </div>
