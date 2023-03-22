@@ -12,7 +12,7 @@ const Headers = () => {
             <div className="relative">
                 <input
                     type="text"
-                    className={`w-40 px-4 py-2 border rounded-full bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-500 ease-in-out ${isFocused ? "w-72" : ""
+                    className={`w-40 px-4 py-2 border rounded-full bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-500 oyu ease-in-out ${isFocused ? "w-72" : ""
                         }`}
                     placeholder="Search"
                     onFocus={() => setIsFocused(true)}
