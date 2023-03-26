@@ -6,9 +6,8 @@ const Headers = () => {
 
     return (
 
-        <div className='w-full flex justify-between items-center bg-white px-6 py-4'>
-            <span className='text-pos-black4 text-3xl font-bold opacity-70'>Logo</span>
-
+        <div className='w-full flex justify-between items-center 
+         px-6 py-4'>
             <div className="relative">
                 <input
                     type="text"
@@ -38,6 +37,7 @@ const Headers = () => {
                     </button>
                 </div>
             </div>
+
         </div>
 
     )

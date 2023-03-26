@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Categories from './Categories';
-import Headers from './Headers';
+
 
 const Home = () => {
 
@@ -8,9 +8,10 @@ const Home = () => {
 
   
   return (
-    <div className='bg-[#EAEAEA] h-full '>
-     <Headers />
+    <div className='bg-pos-black2 h-full '>
+    
      <Categories/>
+     
     </div>
   )
 }
