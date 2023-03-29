@@ -31,7 +31,7 @@ const Categories = () => {
       </div>
 
       <hr className='w-full h-[1px] bg-white opacity-70' />
-      <hr className='w-full h-[1px] bg-white opacity-70' />
+        
 
     </div>
   )
